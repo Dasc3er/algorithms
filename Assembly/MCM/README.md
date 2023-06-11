@@ -1,0 +1,1 @@
+MCM (Minimo Comune Multiplo tra due numeri naturali a 8 bit)
