@@ -1,4 +1,3 @@
-; Bressanin Damiano, Zilio Thomas - 3ai
 ; 3 mar 2015
 
 ; multi-segment executable file template.
@@ -38,7 +37,7 @@ start:
         cmp ax,[si+2] ; confronta ax con l'elemento successivo dell'array (contenuto della posizione di memoria si+2)
         jbe salta ; se i due elementi sono minori o ugiuali tra loro salta al'etichetta "salta"
         push ax
-        push word ptr[si+2] ; word ptr[] indica che la memoria da considerare � di dimensione word (16 bit)
+        push word ptr[si+2] ; word ptr[] indica che la memoria da considerare e' di dimensione word (16 bit)
         pop word ptr[si]
         pop word ptr[si+2]
         inc bl ; inverte l'ordine degli elementi tramite stack e aumenta il contatore bl
@@ -46,7 +45,7 @@ start:
         loop ciclo ; esegue il loop per cx volte tornando all'etichetta "ciclo"
         cmp bl,0
         jne inizio  ; se ebl diveso da zero esegue nuovamente il confronto tra tutti gli elemenyi dell'array
-        ret 4 ; ritorna all'istruzione con offset corrispondente al contenuto della parte pi� "alta" dello stack, diminuendo poi sp di 4
+        ret 4 ; ritorna all'istruzione con offset corrispondente al contenuto della parte piu' "alta" dello stack, diminuendo poi sp di 4
     bubble endp
 ends
 
