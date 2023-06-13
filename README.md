@@ -12,4 +12,4 @@ Includes the following algorithms divided by language:
 
 Moreover, the repository includes:
 - Solutions for a series on [Kattis](https://open.kattis.com/) computational problems, solved in December 2018. Problems with score 1.x are not included.
-- Solutions to basic exercises in Assembly (2015), partially developed in collaboration with @Bressa98
+- Solutions to basic exercises in Assembly (2015), partially developed in collaboration with [@Bressa98](https://github.com/Bressa98)
