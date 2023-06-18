@@ -1,0 +1,119 @@
+Per Lanc
+a 65 aspetta 60 cancepenna i 65 pennadisegna d 6
+Fine
+
+Per Lanc1
+a 65 aspetta 8640 cancepenna i 65 pennadisegna d 6
+Fine
+
+Per Lanci
+Ripeti 60 [Lanc]
+Ripeti 1 [Lanc1]
+Fine
+
+Per Minuti_c
+nt
+Quadrante1
+Tac1
+Movimento
+Fine
+
+Per Minuti_r
+nt
+Quadrante
+Tac
+Movimento
+Fine
+
+Per Movimento
+a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+ripeti 59 [Lanc]
+a 65 i 65 d 6 a 50 i 50 s 6 a 65 aspetta 60 cancepenna i 65 pennadisegna
+d 6 a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+ripeti 58 [Lanc]
+a 65 i 65 d 12 a 50 i 50 s 6 a 50 cancepenna i 50 pennadisegna s 6
+a 65 cancepenna i 65 pennadisegna
+Ripeti 2 [Lanc]
+a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+ripeti 57 [Lanc]
+a 65 i 65 d 18 a 50 i 50 s 6 a 50 cancepenna i 50 pennadisegna s 12
+a 65 cancepenna i 65 pennadisegna
+Ripeti 3 [Lanc]
+a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+ripeti 56 [Lanc]
+a 65 i 65 d 24 a 50 i 50 s 6 a 50 cancepenna i 50 pennadisegna s 18
+a 65 cancepenna i 65 pennadisegna
+Ripeti 4 [Lanc]
+a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+ripeti 55 [Lanc]
+a 65 i 65 d 30 a 50 i 50 s 6 a 50 cancepenna i 50 pennadisegna s 24
+a 65 cancepenna i 65 pennadisegna
+Ripeti 4 [Lanc]
+d 3 a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+
+ripeti 54 [Lanc]
+a 65 i 65 d 36 a 50 i 50 s 6 a 50 cancepenna i 50 pennadisegna s 30
+a 65 cancepenna i 65 pennadisegna
+Ripeti 5 [Lanc]
+a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+ripeti 53 [Lanc]
+a 65 i 65 d 42 a 50 i 50 s 6 a 50 cancepenna i 50 pennadisegna s 36
+a 65 cancepenna i 65 pennadisegna
+Ripeti 7 [Lanc]
+a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+ripeti 52 [Lanc]
+a 65 i 65 d 48 a 50 i 50 s 6 a 50 cancepenna i 50 pennadisegna s 42
+a 65 cancepenna i 65 pennadisegna
+Ripeti 8 [Lanc]
+d 6 a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+ripeti 51 [Lanc]
+a 65 i 65 d 54 a 50 i 50 s 6 a 50 cancepenna i 50 pennadisegna s 48
+a 65 cancepenna i 65 pennadisegna
+Ripeti 9 [Lanc]
+a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+ripeti 50 [Lanc]
+a 65 i 65 d 60 a 50 i 50 s 6 a 50 cancepenna i 50 pennadisegna s 54
+a 65 cancepenna i 65 pennadisegna
+Ripeti 10 [Lanc]
+a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+ripeti 49 [Lanc]
+a 65 i 65 d 66 a 50 i 50 s 6 a 50 cancepenna i 50 pennadisegna s 60
+a 65 cancepenna i 65 pennadisegna
+Ripeti 11 [Lanc]
+d 6 a 65 aspetta 60 cancepenna i 65 pennadisegna a 50 i 50 d 6
+Fine
+
+Per Orologio_c
+nt
+Quadrante1
+Tac1
+Ripeti 360 [Lanci]
+Fine
+
+Per Orologio_r
+nt
+Quadrante
+Tac
+Ripeti 360 [Lanci]
+Fine
+
+Per Quadrante
+Ripeti 4 [a 200 d 90]
+Fine
+
+Per Quadrante1
+Cerchio 110
+su tana giu
+Fine
+
+Per Tac
+su a 100 d 90 a 100 s 90 giu
+Ripeti 12 [su a 70 giu a 30 su i 100 giu d 30]
+Ripeti 60 [su a 80 giu a 10 su i 90 giu d 6]
+Fine
+
+Per Tac1
+Ripeti 12 [su a 70 giu a 30 su i 100 giu d 30]
+Ripeti 60 [su a 80 giu a 10 su i 90 giu d 6]
+Fine
+

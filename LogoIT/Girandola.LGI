@@ -1,0 +1,48 @@
+Per Girandola
+Poligono 3 100
+Poligono 3 150
+Poligono 3 200
+Ripeti 3 [d 90 Poligono 3 100 Poligono 3 150 Poligono 3 200]
+d 90
+Fine
+
+Per Poligono :nl :lato
+Ripeti :nl [a :lato d 360/:nl]
+Fine
+
+Per Riempimento
+su d 45 a 50 giu
+Riempi
+su d 100 a 60 giu
+Riempi
+su d 100 a 80 giu
+Riempi
+su d 100 a 100 giu
+Riempi
+su tana giu
+Fine
+
+Per Riempimento1
+su d 45 a 100 giu
+Riempi
+su d 105 a 90 giu
+Riempi
+su d 80 a 190 giu
+Riempi
+su d 105 a 180 giu
+Riempi
+su tana giu
+Fine
+
+Per Riempimento2
+su d 45 a 150 giu
+Riempi
+su d 110 a 145 giu
+Riempi
+su d 90 a 240 giu
+Riempi
+su d 90 a 230 giu
+Riempi
+su tana giu
+Fine
+

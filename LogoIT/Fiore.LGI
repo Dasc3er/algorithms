@@ -1,0 +1,36 @@
+Per Arco
+Ripeti 90 [a 2 d 1]
+Fine
+
+Per Arco1
+Ripeti 90 [a 0.5 d 1]
+Fine
+
+Per Fiore
+a 150 Fogliolina d 90 a 150 Quadrifoglio
+su tana giu
+Fine
+
+Per Foglia
+Arco d 90 Arco d 135 a 150 i 150 s 135
+Fine
+
+Per Fogliolina
+Arco1 d 90 Arco1 d 135 a 37 i 37 s 135
+Fine
+
+Per Quadrifoglio
+Ripeti 4 [Foglia]
+Fine
+
+Per Riempimento
+su a 150 d 60 a 7 giu
+Riempi
+su tana giu
+Fine
+
+Per Riempimento1
+su a 300 d 145 a 25 giu Riempi su s 125 a 75 giu Riempi
+su s 90 a 100 giu Riempi su s 115 a 100 giu Riempi su tana giu
+Fine
+

@@ -1,0 +1,20 @@
+Per Q
+Ripeti 4 [a 100 d 90]
+Fine
+
+Per Rot
+ps nt ascs [0 0 130]
+Ripeti 3600 [ascp [0 255 0]
+Q aspetta 1 ascp [0 0 130]
+Q d 10]
+mt
+Fine
+
+Per Rot1
+ps nt ascs [0 0 130]
+Ripeti 3600 [ascp [0 255 0]
+Q aspetta 1 ascp [0 0 130]
+Q d 10]
+mt
+Fine
+

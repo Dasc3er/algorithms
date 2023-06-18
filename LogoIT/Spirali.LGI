@@ -1,0 +1,23 @@
+Per PoliSp :l :angolo
+Se :l > 300 [Stop]
+a :l d :angolo
+PoliSp :l + 4 :angolo
+Fine
+
+Per SpiraleC :l
+Ripeti 90 [a :l d 1]
+Se :l>6 [Stop]
+SpiraleC :l + 0.2
+Fine
+
+Per SpiraleT3 :l
+se :l < 10 [Stop]
+Triangolo :l
+a :l/2 d 60
+Triangolo :l/2
+Fine
+
+Per Triangolo :l
+Ripeti 3 [a :l d 120]
+Fine
+

@@ -1,0 +1,8 @@
+Per Poligono :nl :lato
+Ripeti :nl [a :lato d 360/:nl]
+Fine
+
+Per Ruotapoligono :nr :nl :lato
+Ripeti :nr [Poligono :nl :lato d 360/:nr]
+Fine
+

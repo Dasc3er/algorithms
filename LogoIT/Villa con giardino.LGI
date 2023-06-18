@@ -1,0 +1,151 @@
+Per Alberello
+a 80 s 90
+Chioma
+s 135 i 80
+Fine
+
+Per Albero
+a 150 s 90
+Chioma1
+s 135 i 150
+Fine
+
+Per Casa
+Ripeti 2 [a 120 d 90 a 150 d 90]
+d 90 a 55 s 90
+Ripeti 2 [a 60 d 90 a 40 d 90]
+su tana giu
+a 70 su d 90 a 10 giu
+Ripeti 2 [a 40 s 90 a 40 s 90]
+su a 90 giu
+Ripeti 2 [a 40 s 90 a 40 s 90]
+su tana giu
+a 120 d 45
+a 107 d 90 a 107
+su tana giu
+Fine
+
+Per Chioma
+Ripeti 5 [Ramo d 45]
+Fine
+
+Per Chioma1
+Ripeti 5 [Ramo1 d 45]
+Fine
+
+Per Fm
+Villa
+Sole aspetta 600 ps
+Villa
+Tuono aspetta 600 ps
+Fm
+Fine
+
+Per Fm1
+Villa
+Sole aspetta 600 ps
+Villa
+Tlamp aspetta 600 ps
+Fine
+
+Per Foglia
+s 45 a 5
+i 5 d 90
+a 5 i 5 s 45
+Fine
+
+Per Foglia1
+s 45 a 5
+i 5 d 90
+a 5 i 5 s 45
+Fine
+
+Per Giardino
+su s 90 a 300 d 180 giu
+a 100 s 90 Albero d 90
+a 100 s 90 Alberello d 90
+a 350 s 90 Alberello d 90
+a 100 s 90 Albero  d 90 a 100 d 180
+Ripeti 30 [a 10 d 90 a 5 i 5 s 90]
+su a 150 giu
+Ripeti 30 [a 10 d 90 a 5 i 5 s 90]
+su tana giu
+Fine
+
+Per Ramo
+Ripeti 3 [a 10 Foglia]
+a 10 i 40
+Fine
+
+Per Ramo1
+Ripeti 5 [a 10 Foglia1]
+a 10 i 60
+Fine
+
+Per Sole
+su nt vay 210 giu
+Cerchio 25
+Ripeti 24 [su a 25 giu a 10 su i 35 giu d 360/24]
+ascr[255 255 0] Riempi
+giu nt
+Fine
+
+Per Tlamp
+Tuono
+su i 105 giu
+su s 185 a 50 giu
+s 115 Ripeti 2 [a 35 d 90 a 10 s 90] a 35
+giu
+su i 70 giu
+su s 270 a 75 giu
+s 115 Ripeti 4 [a 35 d 90 a 10 s 90] a 35
+giu
+su i 140 giu
+su s 270 a 75 giu
+s 115 Ripeti 2 [a 35 d 90 a 10 s 90] a 35
+giu
+su i 70 giu
+su tana giu
+Tuono1
+su i 35 giu
+su d 185 a 50 giu
+d 115 Ripeti 2 [a 35 s 90 a 10 d 90] a 35
+giu
+su i 70 giu
+su d 270 a 75 giu
+d 115 Ripeti 4 [a 35 s 90 a 10 d 90] a 35
+giu
+su i 140 giu
+su d 270 a 75 giu
+d 115 Ripeti 2 [a 35 s 90 a 10 d 90] a 35
+giu
+su i 70 giu
+su tana giu
+
+Fine
+
+Per Tuono
+su nt vay 300 s 90 a 50 giu
+s 115 Ripeti 3 [a 35 d 90 a 10 s 90] a 35
+giu
+Fine
+
+Per Tuono1
+su nt vay 300 d 90 a 50 giu
+d 115 Ripeti 1 [a 35 s 90 a 10 d 90] a 35
+giu
+Fine
+
+Per Villa
+Casa
+Giardino
+Fine
+
+Per Villafm
+Ripeti 360 [Fm]
+Fine
+
+Per Villafm1
+Ripeti 360 [Fm1]
+Fine
+

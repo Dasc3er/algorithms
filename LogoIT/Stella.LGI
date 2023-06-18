@@ -1,0 +1,15 @@
+Per Quadrato
+Ripeti 2 [a 200 d 90 a 200 d 90]
+Fine
+
+Per Stella
+Quadrato
+Triangolo
+Fine
+
+Per Triangolo
+s 60
+Ripeti 4 [a 200 d 120 a 200 s 30]
+d 60
+Fine
+
