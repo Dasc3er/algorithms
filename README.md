@@ -3,7 +3,7 @@
 Initially based on ideas explosed in [karan/Projects](https://github.com/karan/Projects), then expanded to others.
 Comments may be Italian depending on time of implementation ;)
 
-## Assembly 8086 (2014-15)
+## Assembly 8086
 
 The Assembly exercises and algorithms in this repository were implemented in 2014-15 (Italian only), and include:
 - **Basic operations** on numbers (multiplication, MCD/GCD, MCM/LCM, mean, max and min, divisibility check) and on arrays
@@ -36,7 +36,7 @@ Moreover, this repository includes a series of solutions for some [Kattis](https
 
 ## Python
 
-The Python code in this repository is mainly related to some recent experiments on algorithms for ML (documented in English):
+The Python code in this repository is mainly related to more recent experiments on algorithms for ML (documented in English):
 - Implementation of the **[Scalable Distributed Approximation of Internal Measures for Clustering Evaluation](https://arxiv.org/abs/2003.01430)**, in [Python](./Python/approximated_silhouette.py) (2022)
 - Optimized implementation of the **[Hopkins Statistic](https://en.wikipedia.org/wiki/Hopkins_statistic)** using [faiss](https://github.com/facebookresearch/faiss) (works with large datasets), in [Python](./Python/hopkins_statistic.py) (2022)
 
